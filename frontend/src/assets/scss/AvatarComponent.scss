@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.AvatarComponent {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .avatarComponent-column {
+    display: flex;
+    position: relative;
+  }
+  .statuspoint {
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    background-color: tomato;
+    top: 0;
+  }
+  span {
+    background-color: red;
+  }
+}

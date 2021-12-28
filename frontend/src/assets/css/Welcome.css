@@ -1,0 +1,72 @@
+.WelcomeDiv{
+    
+    height:90vh;
+}
+
+.BodyLeft{
+    border-right:1px solid black;
+    float:left;
+    width:30%;
+    height:83vh;
+}
+
+.BodyRight{
+    border-top:1px solid black;
+    height:83vh;
+    
+}
+
+.BodyLeftInner{
+    margin:15%;
+    margin-top: 25%;
+    text-align: center;
+    font-weight: bolder;
+    background-color: cornflowerblue;
+    box-shadow: 0px 5px 5px 0px gray;
+    border-radius: 20px;
+}
+
+.BodyLeftInner2{
+    margin:5%;
+    
+    text-align: center;
+    font-weight: bolder;
+}
+
+.CreateButton{
+    width:100%;
+}
+
+.BodyLeftOuter{
+    width:90%;
+    margin:5%;
+    border-radius: 5%;
+    box-shadow: 0px 5px 5px 0px gray;
+    background-color: #efefef;
+    height:50%;
+}
+
+.BodyRightInner{
+    border:1px solid #efefef;
+    margin:5% 0% 0% 40%;
+    width:50%;
+    height:70%;
+    border-radius: 10%;
+    background-color: #efefef;
+    box-shadow: 0px 5px 5px 0px gray;
+}
+
+.BodyRightInner2{
+    margin:10%;
+    border:1px solid white;
+    height:70%;
+    border-radius: 10%;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px gray;
+    
+}
+
+.WelcomeText{
+    margin-top: 20%;
+    text-align: center;
+}

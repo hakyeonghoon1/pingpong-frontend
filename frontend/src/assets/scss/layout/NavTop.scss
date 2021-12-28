@@ -1,0 +1,47 @@
+@charset "utf-8";
+.NavTop{
+    background-color: #999;
+    height: 10vh;
+    display: block;
+    padding-top: 2vh;
+    padding-left: 1vw;    
+
+    .Block{
+        align-self:right;
+        margin-left: 38%;
+        width:25%;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+
+    form{
+        float: left;
+        width: 50vw;
+        .kwd{
+            
+            width: 40vw;
+            float: left;
+            flex:auto;
+        }
+        .submit{
+            width: 20vw;
+            float: left;
+            flex:auto;
+        }
+    }
+    
+    .OpenProfile{
+        display: inline;
+        width: 300px;
+        float: right;
+        
+    }
+}
+
+
+
+// <form className="SearchForm">                           
+// <input type='text' className='kwd' />
+// <input type='submit' value="찾기" className='submit'/>
+// </form>
+// <button className="OpenProfile">프로필 열기</button>

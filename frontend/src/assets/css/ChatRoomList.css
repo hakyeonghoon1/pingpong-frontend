@@ -1,0 +1,74 @@
+
+.OuterBox{
+    border:1px solid #00a2ff;
+    width:90%;
+    margin:auto;
+    background-color: #00a2ff;
+    border-radius: 10%;
+    box-shadow: 0px 5px 5px 0px gray;
+    margin-bottom: 10%;
+    height: 200px;
+}
+
+
+.Title{
+    margin-bottom:5%;
+    font-weight: bolder;
+    margin-left: 2%;
+    width:85%;
+    height:35px;
+    float: left;
+    display: block;
+    font-size: 30px;
+    color:white;
+}
+.PlusButton{
+    background-color: #00a2ff;
+    color:white;
+    font-size: large;
+    border:none;
+}
+
+
+.Block{
+    
+    padding:0%;
+    width:100%;
+    height:35px;
+}
+.ExitButton{
+    background-color: white;
+    color:black;
+    border:none;
+    font-weight: bolder;
+}
+
+.One{
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 2px 2px 0px gray;
+    height: 30px;
+}
+
+.RoomName{
+    display: block;
+    width:85%;
+    float: left;
+    text-decoration: none;
+
+    font-weight: bolder;
+    color:black;
+    
+}
+.Body{
+    margin-top: 10%;
+    width:90%;
+    margin: auto;
+    height:75%;
+    overflow: auto;
+}
+
+.Body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}

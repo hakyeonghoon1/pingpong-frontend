@@ -1,0 +1,20 @@
+.Form{
+    /* border:1px solid red; */
+}
+
+.MessageBox{
+    display: block;
+    border:1px solid blue;
+    width:700px;
+    font-size: 20px;
+    float: left;
+}
+
+.SubmitBtn{
+    display: block;
+    float: left;
+}
+.File{
+    display: block;
+    float: left;
+}

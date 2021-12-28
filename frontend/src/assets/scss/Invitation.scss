@@ -1,0 +1,38 @@
+.OuterBox{
+    height: 23vh;
+    overflow: auto;
+}
+.OuterBox::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+.Invitation{
+    margin: 2em;
+    background-color: #00A2FF;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.3em;
+
+    .Button{
+        margin:0.5em;
+        text-align: center;
+        .Button1{
+            text-align: center;
+            float: left;
+            margin-right: 2em;
+            margin-left: 3em;
+        }
+        .Button2{
+            text-align: center;
+            margin-right: 2em;
+            margin-left: 2em;
+        }
+    }
+    .InvitationContents{
+        background-color: #ffff;
+        border-radius: 10px 10px 10px 10px;
+        padding: 1.2em;
+    }
+}

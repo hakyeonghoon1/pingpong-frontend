@@ -1,0 +1,44 @@
+.updatePost {
+  width: 90%;
+  .updateTable {
+    margin: 0;
+    width: 100%;
+
+    tr {
+      td:nth-child(1) {
+        text-align: center;
+        width: 20%;
+      }
+    }
+    .titleContainer {
+      .styleInput {
+        width: 100%;
+      }
+    }
+
+    .contentsContainer {
+      textarea {
+        width: 100%;
+        height: 80%;
+      }
+    }
+
+    .submitContainer {
+      display: flex;
+      align-items: center;
+      position: relative;
+      width: 50%;
+    }
+  }
+  .btnContainer {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-left: 70px;
+  }
+}

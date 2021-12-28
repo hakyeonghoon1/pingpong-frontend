@@ -1,0 +1,9 @@
+.Notice{
+    display: block;
+    width:100%;
+    background-color: #b2c9ed;
+    margin:0px;
+    font-weight: 200;
+    position: relative;
+    height:5vh;
+}

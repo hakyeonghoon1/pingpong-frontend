@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.Post2::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+.Post{
+    padding: 1em;
+    height:90vh;
+    //overflow: auto;
+
+    .SearchBar{
+        float: left;
+    }
+    .PostWriteButton{
+        float: left;
+    }
+}
+
+.Post2{
+    padding: 1em;
+    height:78vh;
+    overflow: auto;
+}

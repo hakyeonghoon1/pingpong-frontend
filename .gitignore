@@ -1,0 +1,17 @@
+**/node_modules
+**/public/assets
+**/public/bundls.js
+**/public/main.js
+
+
+**/.idea
+**/.iml
+**/build
+
+**/.classpath
+**/.project
+**/.settings
+**/target
+
+**/DS_Store
+node_modules
