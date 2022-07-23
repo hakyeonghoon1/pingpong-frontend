@@ -45,6 +45,9 @@ const InvitationList = () => {
 
     return (
         <div className={styles.OuterBox}>
+            {/*
+                웹소켓을 연결해 두고 자신의 아이디(topic)를 subscribe하고 있다가 response가 왔을때 초대장을 띄움
+            */}
               <SockJsClient url="http://localhost:8080/ws-stomp"
                 topics={[`/sub/${loginMember.id}`]}
                 onMessage={msg => { setInviteMessage(inviteMessage+1); console.log(inviteMessage); alert('초대장이 도착했습니다.');}} ref={$websocket} />
